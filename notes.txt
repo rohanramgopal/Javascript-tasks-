@@ -1,1 +1,286 @@
+1. What is a variable in JavaScript?
+
+A variable is used to store a value or data.
+
+2. What are the three keywords used to create variables?
+
+var, let, and const.
+
+3. Write the syntax to create a variable using var.
+
+var variableName = value;
+
+4. Write the syntax to create a variable using let.
+
+let variableName = value;
+
+5. Write the syntax to create a variable using const.
+
+const variableName = value;
+
+6. What is declaration?
+
+Declaration means creating a variable using var, let, or const.
+
+Example:
+let age;
+
+7. What is initialization?
+
+Initialization means assigning a value to a variable.
+
+Example:
+age = 25;
+
+8. What is reassignment?
+
+Reassignment means changing the value of an existing variable.
+
+Example:
+age = 30;
+
+9. What is redeclaration?
+
+Redeclaration means declaring the same variable again using the same keyword.
+
+Example:
+var age = 20;
+var age = 25;
+
+10. Which keyword allows redeclaration?
+
+var
+
+11. Which keyword allows reassignment?
+
+var and let.
+
+12. Which keyword requires initialization when declared?
+
+const
+
+13. Identify the declaration and initialization:
+
+let age = 25;
+
+Declaration: let age
+Initialization: = 25
+
+14. What is the value of a?
+
+var a = 100;
+console.log(a);
+
+Output: 100
+
+15. Change the value of this variable to 200:
+
+let number = 100;
+number = 200;
+
+16. What will be the output?
+
+var a = 10;
+console.log(a);
+
+Output: 10
+
+17. What will be the output?
+
+var a = 10;
+a = 20;
+console.log(a);
+
+Output: 20
+
+18. What will be the output?
+
+var a = 10;
+var a = 30;
+console.log(a);
+
+Output: 30
+
+19. Write a var variable named name with the value "John".
+
+var name = "John";
+
+20. Create a var variable named price with the value 500.
+
+var price = 500;
+
+21. Reassign price from 500 to 1000.
+
+var price = 500;
+price = 1000;
+
+22. What will be the output?
+
+var x = 50;
+x = 100;
+console.log(x);
+
+Output: 100
+
+23. Can a var variable be reassigned?
+
+Yes.
+
+24. Can a var variable be redeclared?
+
+Yes.
+
+25. Write an example of var redeclaration.
+
+var age = 20;
+var age = 25;
+
+26. Create a let variable named age with the value 25.
+
+let age = 25;
+
+27. What will be the output?
+
+let age = 20;
+age = 30;
+console.log(age);
+
+Output: 30
+
+28. Can a let variable be reassigned?
+
+Yes.
+
+29. Can a let variable be redeclared?
+
+No.
+
+30. Find the error:
+
+let name = "John";
+let name = "David";
+
+Error: The variable name is declared again using let. let does not allow redeclaration.
+
+31. Create a let variable called city and assign "Chennai".
+
+let city = "Chennai";
+
+32. Change the value of city to "Salem".
+
+city = "Salem";
+
+33. What will be the output?
+
+let x = 10;
+x = 50;
+console.log(x);
+
+Output: 50
+
+34. Write a let variable called salary with the value 25000.
+
+let salary = 25000;
+
+35. Reassign salary to 30000.
+
+salary = 30000;
+
+36. Create a const variable called pi with the value 3.14.
+
+const pi = 3.14;
+
+37. Can a const variable be reassigned?
+
+No.
+
+38. Can a const variable be redeclared?
+
+No.
+
+39. What is wrong with this code?
+
+const age;
+age = 25;
+
+Error: A const variable must be initialized when it is declared.
+
+Correct code:
+const age = 25;
+
+40. What happens here?
+
+const price = 500;
+price = 1000;
+
+Error: A const variable cannot be reassigned.
+
+41. Create a const variable called country with the value "India".
+
+const country = "India";
+
+42. What will be the output?
+
+const x = 100;
+console.log(x);
+
+Output: 100
+
+43. Which keyword should you use if the value should not be reassigned?
+
+const
+
+44. What is the difference between let and const?
+
+let can be reassigned.
+const cannot be reassigned and must be initialized when declared.
+
+45. What is the difference between var and const?
+
+var can be reassigned and redeclared.
+const cannot be reassigned or redeclared and must be initialized when declared.
+
+46. Write JavaScript code to print Hello World using console.log().
+
+console.log("Hello World");
+
+47. Write JavaScript code to print the number 500 using console.log().
+
+console.log(500);
+
+48. What is the purpose of console.warn()?
+
+It is used to display a warning message in the console.
+
+Example:
+console.warn("Warning message");
+
+49. What is the purpose of console.error()?
+
+It is used to display an error message in the console.
+
+Example:
+console.error("Error message");
+
+50. What is the purpose of each?
+
+alert()
+
+Displays a pop-up message to the user.
+
+prompt()
+
+Asks the user for input.
+
+confirm()
+
+Displays a question with OK and Cancel buttons.
+
+document.writeln()
+
+Displays or writes content on the webpage.
+
+console.log()
+
+Prints information in the browser console.
 
